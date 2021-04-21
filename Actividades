@@ -1,1 +1,68 @@
+1- Lista los operadores:
 
+a) Aritmeticos
+b) Relacionales
+c) Unarios
+d) Logicos
+e) Ternarios (condicionales)
+
+2- Haz un ejemplo del operador ternario:
+
+const a = 29
+const b = 30
+
+if (a != b) {
+    true
+} else {
+
+};
+
+3- ¿Qué es una función?
+
+ Una función  es un conjunto de instrucciones que realiza una tarea o calcula un valor.
+    /*Invocación de una Función
+      estoEsUnaFuncion();*/
+
+4- ¿Cuál es la diferencia de una función expresada y una función declaradas?
+
+La función declarada puede invocarse en cualquier parte del código; incluso antes de que la función sea declarada; en la función expresada no se puede; la función expresada se le asigna como valor a una variable.
+
+5- ¿Diferencias entre array y un objeto?
+
+En el array se usan los corchetes y en el objeto las llaves
+El array tiene una numeración, y empieza desde 0 (primer elemento del array)
+Un objeto contiene llave y valor
+
+6- ¿Qué signigica ++ y --?
+
+++: Es un operador de incremento; y agrega de a uno a su operando
+--: Es un operador de decremento; y disminuye a su operando
+
+7-Crear una variable llamada nido que sea un array de objetos, con la data de los cuatros (Hécto, Marcela, Silverio, Iván) con la siguiente estructura (dni, nombre, edad, sexo), e ivan le pones 0 en el dni.
+
+const nido = [{
+    nombre: "Silverio",
+    edad: 15,
+    sexo: "masculino",
+    dni: 30841727
+}, {
+    nombre: "Marcela",
+    edad: 42,
+    sexo: "femenino",
+    dni: 95897147
+}, {
+    nombre: "Iván",
+    edad: 7,
+    sexo: "masculino",
+    dni: 0
+}, {
+    nombre: "Hector",
+    edad: 41,
+    sexo: "masculino",
+    dni: 95897257
+}, ];
+
+¿Cuál es la diferencia entre for in y for of?
+
+El for in muestra las propiedades en si.
+El for of muestra los mismos valores.
